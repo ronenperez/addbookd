@@ -1,0 +1,47 @@
+html,
+body {
+    font-family: arial,sans-serif;
+        margin:0;
+        padding:0;
+        height:100%;
+}
+#wrapper {
+        min-height:100%;
+        position:relative;
+    width: 960px;
+    margin-left: 50%;
+    left: -480px;
+        height:100%; /* for IE 5/6 */
+}
+#header {
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+}
+
+div.logo
+{
+    position: relative;
+    width: 620px;
+    margin-left: 50%;
+    left: -300px;
+    padding-top: 100px;
+}
+
+p.left
+{
+        float: left;
+}
+
+p.right
+{
+        float: right;
+}
